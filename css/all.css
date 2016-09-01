@@ -1,0 +1,87 @@
+body {
+	margin:0;
+	color:#000;
+	font:11px/15px arial,sans-serif;
+	background:#fff;
+	min-width: 960px;
+	-ms-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+}
+img {
+	border-style:none;
+}
+a {
+	color:#000;
+	outline:none;
+}
+a:hover {
+	text-decoration:none;
+}
+* {
+	outline:none;
+}
+input, textarea, select {
+	font:100% arial,sans-serif;
+	vertical-align:middle;
+}
+form, fieldset {
+	margin:0;
+	padding:0;
+	border-style:none;
+}
+header,
+nav,
+section,
+article,
+aside,
+footer,
+figure,
+menu,
+dialog {
+	display: block;
+}
+.clear:after {
+	display: block;
+	clear: both;
+	content: '';
+}
+.img-holder img {
+	vertical-align: top;
+}
+.pull-left {
+	float: left !important;
+}
+.pull-right {
+	float: right !important;
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.timer {
+	font-size: 40px;
+	line-height: normal;
+	padding: 50px 0;
+}
+.timer > div {
+	display: inline-block;
+	vertical-align: top;
+}
+.timer > div + div:before {
+	content: ': ';
+}
+
+button {
+	border: none;
+	background: #ccc;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	width: 300px;
+	display: block;
+	margin-bottom: 10px;
+}
